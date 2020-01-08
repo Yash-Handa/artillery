@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-artillery",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "artillery"
+  ],
+  "author": {
+    "email": "yashhanda7@yahoo.com",
+    "name": "Yash Handa"
+  },
+  "description": "A fully loaded CRA (create react app) template.",
+  "main": "template.json",
+  "homepage": "https://github.com/Yash-Handa/artillery#README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yash-Handa/artillery.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/Yash-Handa/artillery/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
