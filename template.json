@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react-app-polyfill": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "localtunnel": "^2.0.0",
+    "prettier": "^1.19.1",
+    "source-map-explorer": "^2.1.2"
+  },
+  "scripts": {
+    "build-profile": "npm run build -- --profile",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "fix-formate": "prettier --write src/**/*.{js,jsx}",
+    "lt": "node ./custom_scripts/localTunnel.js"
+  }
+}
