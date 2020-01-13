@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "react-app-polyfill": "^1.0.5"
-  },
-  "devDependencies": {
+    "react-app-polyfill": "^1.0.5",
     "eslint-config-prettier": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "localtunnel": "^2.0.0",
@@ -10,11 +8,10 @@
     "source-map-explorer": "^2.1.2"
   },
   "scripts": {
+    "postinstall ": "node ./custom_scripts/packageJSONReset.js",
     "build-profile": "npm run build -- --profile",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "fix-formate": "prettier --write src/**/*.{js,jsx}",
     "lt": "node ./custom_scripts/localTunnel.js"
-  },
-  "eslintConfig": "",
-  "browserslist": ""
+  }
 }
