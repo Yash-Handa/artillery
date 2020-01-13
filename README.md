@@ -20,6 +20,8 @@ npx create-react-app my-app --template artillery
 8. css normalization
 9. source map explorer support
 
+**NOTE**: Remove eslintConfig and browserslist from package.json
+
 ## File Structure
 
 Artillery is a CRA (create-react-app) template which modify some files and add some to the CRA module.
