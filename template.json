@@ -8,7 +8,7 @@
     "source-map-explorer": "^2.1.2"
   },
   "scripts": {
-    "postinstall ": "node ./custom_scripts/packageJSONReset.js",
+    "postinstall": "node ./custom_scripts/packageJSONReset.js",
     "build-profile": "npm run build -- --profile",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "fix-formate": "prettier --write src/**/*.{js,jsx}",
